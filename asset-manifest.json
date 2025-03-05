@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/gowthamshetty77/Gowtham-portfolio.git/static/css/main.00fac6a4.css",
+    "main.js": "/gowthamshetty77/Gowtham-portfolio.git/static/js/main.8366a6ee.js",
+    "static/media/apacheTomcar-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/apacheTomcar-img.6d3dd5ef5a86b624beec.png",
+    "static/media/js-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/js-img.0a9218765190163e0fb3.png",
+    "static/media/G.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/G.cd2a82ce2d3cc5dae2bb.png",
+    "static/media/css-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/css-img.42b6a075e33f58ea326c.png",
+    "static/media/project-udgama.jpg": "/gowthamshetty77/Gowtham-portfolio.git/static/media/project-udgama.3565cc182c9168c624a5.jpg",
+    "static/media/springSuite-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/springSuite-img.22839cb0adf2f6d49a1b.png",
+    "static/media/project-medicare.jpg": "/gowthamshetty77/Gowtham-portfolio.git/static/media/project-medicare.3310be11441d0778584f.jpg",
+    "static/media/project-newssphere.jpg": "/gowthamshetty77/Gowtham-portfolio.git/static/media/project-newssphere.4021d8c28c6bb8f7c8d7.jpg",
+    "static/media/html-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/html-img.8b2e0efeaf06e7868365.png",
+    "static/media/react-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/react-img.9193e4d62080f64e08a5.png",
+    "static/media/eclipse-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/eclipse-img.4c8b07f930d0266cacf7.png",
+    "static/media/bootstrap-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/bootstrap-img.1d24b60d01fca72ca238.png",
+    "static/media/project-pethub.jpg": "/gowthamshetty77/Gowtham-portfolio.git/static/media/project-pethub.e08c6aaee13b669e46cc.jpg",
+    "static/media/vsCode-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/vsCode-img.d253250f1b122a49d82b.png",
+    "static/media/git-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/git-img.f54a720dd984f9c74672.png",
+    "static/media/j2ee-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/j2ee-img.a8851c2e782e19a3304f.png",
+    "static/media/project-amazon.jpg": "/gowthamshetty77/Gowtham-portfolio.git/static/media/project-amazon.14a05323233352bad8c3.jpg",
+    "static/media/gitHub-img.png": "/gowthamshetty77/Gowtham-portfolio.git/static/media/gitHub-img.94a33551c7079ff7c6e6.png",
+    "index.html": "/gowthamshetty77/Gowtham-portfolio.git/index.html",
+    "main.00fac6a4.css.map": "/gowthamshetty77/Gowtham-portfolio.git/static/css/main.00fac6a4.css.map",
+    "main.8366a6ee.js.map": "/gowthamshetty77/Gowtham-portfolio.git/static/js/main.8366a6ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00fac6a4.css",
+    "static/js/main.8366a6ee.js"
+  ]
+}
