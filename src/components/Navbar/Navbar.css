@@ -1,0 +1,64 @@
+#navbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    background-color: #757272 ;
+}
+
+.contactBtnNavLi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.contactBtnNav {
+    width: 130px;
+    height: 40px;
+    background-color: white;
+    color: black !important;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactBtnNav:hover {
+    background-color: #e4e2e2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ContactBtnImgNav {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.navbar-toggler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+#MenuBar {
+    width: 2rem;
+    height: 2rem;
+}

@@ -1,0 +1,229 @@
+/* Contact.css */
+.contact-section {
+    width: 100%;
+    padding: 6rem 1.5rem 4rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .contact-section h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    background: #373737;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-form:hover {
+    scale: 1.01;
+    transition: 0.1s linear;
+  }
+  
+  .form-group {
+    margin-bottom: 1.8rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0,123,255,0.1);
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .submit-btn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-section {
+      padding: 5rem 1rem 3rem;
+    }
+    
+    .contact-section h2 {
+      font-size: 2rem;
+    }
+  
+    .contact-form {
+      padding: 1.5rem;
+    }
+  
+    .form-group {
+      margin-bottom: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .submit-btn {
+      padding: 0.8rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Loading state */
+  .submit-btn.loading {
+    position: relative;
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  
+  .submit-btn.loading::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  /* ---------------------------------------------------------------------- */
+
+
+/* Disabled state */
+.submit-btn:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .submit-btn:disabled:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Loading text replacement */
+  .submit-btn.loading span {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  /* Loading spinner positioning */
+  .submit-btn.loading::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+
+  /* Alert Styles */
+.alertMessage {
+  position: fixed;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  background: #4CAF50;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.alertMessage.show {
+  top: 20px;
+  opacity: 1;
+  visibility: visible;
+}
+
+@keyframes slideIn {
+  from { top: -100px; opacity: 0; }
+  to { top: 20px; opacity: 1; }
+}
+
+@keyframes slideOut {
+  from { top: 20px; opacity: 1; }
+  to { top: -100px; opacity: 0; }
+}
+
+.alertMessage.show {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+.alertMessage:not(.show) {
+  animation: slideOut 0.3s ease-in forwards;
+}
